@@ -1,0 +1,45 @@
+.hero-section {
+  background: linear-gradient(135deg, #0d6efd 0%, #0a58ca 100%);
+  color: white;
+  padding: 4rem 1rem;
+  border-radius: 0 0 1.5rem 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.service-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  height: 100%;
+}
+
+.service-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.chat-box {
+  height: 400px;
+  overflow-y: auto;
+  border: 1px solid #dee2e6;
+  border-radius: 0.5rem;
+  background-color: #ffffff;
+  padding: 1rem;
+}
+
+.chat-message {
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  margin-bottom: 0.5rem;
+  max-width: 75%;
+}
+
+.chat-message.sent {
+  background-color: #0d6efd;
+  color: white;
+  margin-left: auto;
+}
+
+.chat-message.received {
+  background-color: #e9ecef;
+  color: #212529;
+  margin-right: auto;
+}
